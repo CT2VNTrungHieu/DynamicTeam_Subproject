@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	background-image: linear-gradient(135deg, #cc1515 0, #e42c24 16.67%, #e48c8c 33.33%, #e46668 50%, #e92359 66.67%, #f7c9c9 83.33%, #e42c24 100%);
+	color: white;
+	font-family: 'Space Mono', monospace;
+	position: relative;
+}
+
+
+/*main_eror*/
+.main_eror {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.main_eror h1 {
+	font-size: 20rem;
+}
+
+.section_main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto 0;
+}
+
+
+/*Button*/
+button {
+	width: 5rem;
+	background-color: white;
+	border: white;
+	border-radius: 30%;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.main_button img {
+	padding: 15px;
+}
+
+button:hover {
+	background-image: radial-gradient(circle at 0% 0%, #8de4f7 0, #71d9f4 16.67%, #4fcdf0 33.33%, #0cc1ed 50%, #00b5ea 66.67%, #00a9e8 83.33%, #009de6 100%);
+	animation: 3s;
+}
+
+
+/*Marquee*/
+marquee {
+	font-size: 40px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/*Media*/
+@media (max-width:700px) {
+	.main_eror h1 {
+		font-size: 15rem;
+	}
+
+}
+
+@media (max-width:450px) {
+	.main_eror h1 {
+		font-size: 10rem;
+	}
+
+}
+
+@media (max-width:300px) {
+	.main_eror h1 {
+		font-size: 8rem;
+	}
+
+}
+
+@media (max-height:690px) {
+	.main_eror h1 {
+		font-size: 7rem;
+	}
+}
+
+@media (max-height:200px) {
+	.main_eror h1 {
+		font-size: 1rem;
+	}
+}
