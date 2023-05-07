@@ -75,6 +75,42 @@
         </script>
       </a>
     </div>
+    <div class="noti">
+      <div>
+        <div style="display: flex;">
+          <img src="image/logo65px.png" alt="" style="width: 65px;
+          height: 65px;
+          object-fit: cover;margin: 5px; margin-top: 10px;">
+          <div style="padding-left: 10px;font-size: 14px;font-weight: 700;">
+            <p style="margin-left: 50px;">BẠN ƠI !! CHỜ ĐÃ !!</p>
+          </div>
+        </div>
+        <div class="div_mess" style="margin-top: -45px;">
+          Đăng ký để nhận ưu đãi và sản phẩm giá tốt nhất tại GEARVN bạn nhé!!
+        </div>
+      </div>
+      <div style="margin-top: 20px;">
+        <button class="btn-cancel" style="margin-right: 15px;">Bỏ qua</button>
+        <button class="btn-cancel" id="btnopenfb"
+          style=" background: linear-gradient(45deg, transparent 5%,  #00E6F6 5%); color: black; margin-left: 15px;  box-shadow: 6px 0px 0px #FF013C;">Ưu
+          đãi <a href="https://www.facebook.com/TrungHieuuuuuuu/" target="_blank"></a></button>
+      </div>
+
+    </div>
+    <script>
+      const cancelButton = document.querySelector('.btn-cancel');
+      const acceptButton = document.querySelector('.btn-accept');
+      const noti = document.querySelector('.noti');
+
+      cancelButton.addEventListener('click', function () {
+        noti.style.display = 'none';
+      });
+      const btnOpenFb = document.getElementById("btnopenfb");
+      btnOpenFb.addEventListener("click", () => {
+        window.open("https://www.facebook.com/TrungHieuuuuuuu/", "_blank");
+        noti.style.display = 'none';
+      });
+    </script>
     <div class="container">
       <div class="header">
         <div class="header-top">
@@ -126,7 +162,7 @@
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                   </div>
-                                  <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+                                  <button type="submit" class="btn btn-primary">Login</button>
                                 </form>
                               </div>
                               <div class="modal-footer">
@@ -177,7 +213,7 @@
                                     <label class="form-check-label" for="exampleCheck1">By creating an account you agree
                                       to our Terms & Privacy.</label>
                                   </div>
-                                  <button type="submit" class="btn btn-primary">Đăng Ký</button>
+                                  <button type="submit" class="btn btn-primary">SignUp</button>
                                 </form>
                               </div>
                               <div class="modal-footer">
@@ -3363,6 +3399,17 @@
                   <label class="btn btn-outline-primary" for="btnradio25">5</label>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="mail">
+            <div class="mail-left">
+              <p class="textp">
+                Mua hàng online với nhiều ưu đãi hơn tại GEARVN
+              </p>
+            </div>
+            <div class="mail-right">
+              <input placeholder="Nhập email của bạn" type="text" />
+              <span><a href="#">Đăng kí</a></span>
             </div>
           </div>
         </div>
