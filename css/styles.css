@@ -830,8 +830,103 @@ header .container .header-bottom-listRight li a img {
     color: #333333
 }
 
+.body-listCategory .mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px 100px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #dfd9d9;
+    height: 46px;
+    border-radius: 10px;
+}
+
+.body-listCategory .mail-left .textp {
+    color: #2c2b2b;
+    text-align: center;
+    margin: 0;
+}
+
+.body-listCategory .mail-right input {
+    padding-left: 15px;
+    height: 30px;
+    width: 332px;
+    font-size: 12px;
+}
+
+.body-listCategory .mail-right span a {
+    background-color: #d7202c;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #adadad;
+    padding: 5px 10px
+}
+
 a {
     text-decoration: none !important;
+}
+
+footer {
+    background-color: #f6f6f6
+}
+
+footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px
+}
+
+footer .container .leftFt {
+    line-height: 20px
+}
+
+footer .container .leftFt .hotline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+footer .container .midFt {
+    line-height: 20px
+}
+
+.activePage {
+    background-color: #f1f380
+}
+
+#footer_design {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+#footer {
+    background: #f6f6f6;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 22px;
+
+}
+
+.container_footer {
+    width: 1310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 .noti {
@@ -986,46 +1081,4 @@ a {
 
 .btn-outline-primary:hover {
     color: #ffffff !important;
-}
-
-.activePage {
-    background-color: #f1f380
-}
-
-.body-listCategory .mail {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 15px 100px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #dfd9d9;
-    height: 46px;
-    border-radius: 10px;
-}
-
-.body-listCategory .mail-left .textp {
-    color: #2c2b2b;
-    text-align: center;
-    margin: 0;
-}
-
-.body-listCategory .mail-right input {
-    padding-left: 15px;
-    height: 30px;
-    width: 332px;
-    font-size: 12px;
-}
-
-.body-listCategory .mail-right span a {
-    background-color: #d7202c;
-    color: #fff;
-    font-size: 12px;
-    line-height: 18px;
-    border: 1px solid #adadad;
-    padding: 5px 10px
 }
