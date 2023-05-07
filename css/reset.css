@@ -1,0 +1,50 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+input,
+textarea,
+select,
+button {
+    outline: none
+}
+
+input {
+    line-height: normal;
+    outline: none
+}
+
+label,
+button {
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style: none
+}
+ 
